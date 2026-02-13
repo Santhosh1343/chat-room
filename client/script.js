@@ -1,6 +1,6 @@
 console.log("script.js loaded");
 
-const socket = io("http://localhost:3000");
+const socket = io();
 
 let currentRoom = "";
 
